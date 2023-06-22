@@ -1,0 +1,25 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 1.2em;
+    background-color: rgb(236, 240, 171);
+    opacity: 0.3;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+li {
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    color: darkgrey;
+}
+.activeLink {
+    font-weight: bolder;
+    color: rgb(50, 50, 50);
+}
